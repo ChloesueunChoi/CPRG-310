@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detail Form</title>
+</head>
+<body>
+    <h1> Sign Up </h1>
+    <h2>Step 2: Your Investment Profile</h2>
+    <form action="#">
+
+        <div>
+            <label for="Income_level">Income Level (Annual income)</label>
+            <select id="Income_level" name="Income_level">
+                <option value="Low_income">Low Income: Annual income below $35,000 </option>
+                <option value="Middle_income">Middle income: Annual income between $35,000 and $100,000 </option>
+                <option value="High_income">High income: Annual income above $100,000 </option>
+            </select>
+        </div>
+
+        <div>
+        <label for="Investment_Experience">Investment Experience</label>
+        <input type="number" id="Investment_Experience" name="Investment_Experience" placeholder="Year of Experience" min="1" max="80" required>
+        </div>
+        
+        <div>
+            <label for="investment_style">Select your investment approach (Risk tolerance level):</label>
+            <select id="investment_style" name="investment_style">
+                <option value="conservative">Conservative (Low risk, lower returns)</option>
+                <option value="balanced">Balanced (Moderate risk, moderate returns)</option>
+                <option value="aggressive">Aggressive (High risk, potential for high returns)</option>
+            </select>
+        </div>
+        
+        <div>
+            <label>What is your primary investment goal?</label>
+            <div>
+                <input type="radio" id="retirement" name="investment_goal" value="retirement">
+                <label for="retirement">Saving for Retirement</label>
+            </div>
+            <div>
+                <input type="radio" id="wealth_building" name="investment_goal" value="wealth_building">
+                <label for="wealth_building">Building Wealth</label>
+            </div>
+            <div>
+                <input type="radio" id="financial_milestones" name="investment_goal" value="financial_milestones">
+                <label for="financial_milestones">Achieving Specific Financial Milestones (e.g., buying a house)</label>
+            </div>
+            <div>
+                <input type="radio" id="education_fund" name="investment_goal" value="education_fund">
+                <label for="education_fund">Funding Education</label>
+            </div>
+            <div>
+                <input type="radio" id="other_goal" name="investment_goal" value="other">
+                <label for="other_goal">Other</label>
+            </div>
+        </div>
+        
+        <button onclick="document.location='index.html'">Back</button>
+        
+        <div>
+        <input type="checkbox" id="agree" name="agree" required>
+        <label for="agree">I have read and agree to the Terms and Conditions and Privacy Policy</label>
+        </div>
+        <input type="submit" value="Submit"> 
+    </form>
+</body>
+</html>
