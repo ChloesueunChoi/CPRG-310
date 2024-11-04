@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180.94 205.6">
+  <defs>
+    <style>
+      .cls-1 {
+        stroke-linecap: round;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4 {
+        stroke: #33845b;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-1, .cls-2, .cls-4 {
+        stroke-width: 4px;
+      }
+
+      .cls-1, .cls-3, .cls-4 {
+        fill: none;
+      }
+
+      .cls-5 {
+        fill: #2a845c;
+        font-family: GoodTimesRg-Regular, 'Good Times';
+        font-size: 36px;
+      }
+
+      .cls-2, .cls-6 {
+        fill: #fffeff;
+      }
+
+      .cls-3 {
+        stroke-width: 13px;
+      }
+
+      .cls-7 {
+        fill: #33845b;
+      }
+
+      .cls-8 {
+        letter-spacing: -.09em;
+      }
+
+      .cls-9 {
+        letter-spacing: -.14em;
+      }
+    </style>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <line class="cls-3" x1="40.17" y1="48.37" x2="40.17" y2="178.37"/>
+    <line class="cls-3" x1="33.67" y1="54.87" x2="150.67" y2="54.87"/>
+    <line class="cls-3" x1="33.67" y1="80.87" x2="150.67" y2="80.87"/>
+    <line class="cls-3" x1="33.67" y1="106.87" x2="150.67" y2="106.87"/>
+    <line class="cls-3" x1="33.67" y1="132.87" x2="150.67" y2="132.87"/>
+    <line class="cls-3" x1="33.67" y1="158.87" x2="150.67" y2="158.87"/>
+    <line class="cls-3" x1="66.17" y1="48.37" x2="66.17" y2="178.37"/>
+    <line class="cls-3" x1="118.17" y1="48.37" x2="118.17" y2="178.37"/>
+    <line class="cls-3" x1="144.17" y1="48.37" x2="144.17" y2="178.37"/>
+    <line class="cls-3" x1="92.17" y1="48.37" x2="92.17" y2="178.37"/>
+    <circle class="cls-4" cx="168.3" cy="56.25" r="8.12"/>
+    <line class="cls-1" x1="168.3" y1="59.47" x2="168.3" y2="75.72"/>
+    <circle class="cls-4" cx="168.3" cy="79.32" r="8.12"/>
+    <circle class="cls-4" cx="168.3" cy="147.45" r="8.12"/>
+    <line class="cls-1" x1="168.3" y1="150.68" x2="168.3" y2="166.93"/>
+    <circle class="cls-4" cx="168.3" cy="170.53" r="8.12"/>
+    <line class="cls-1" x1="168.3" y1="82.55" x2="168.3" y2="98.8"/>
+    <circle class="cls-4" cx="168.3" cy="102.4" r="8.12"/>
+    <line class="cls-1" x1="168.3" y1="105.62" x2="168.3" y2="121.87"/>
+    <circle class="cls-4" cx="168.3" cy="125.48" r="8.12"/>
+    <line class="cls-1" x1="168.3" y1="128.7" x2="168.3" y2="144.95"/>
+    <circle class="cls-4" cx="168.3" cy="193.14" r="8.12"/>
+    <line class="cls-1" x1="168.3" y1="174.39" x2="168.3" y2="190.64"/>
+    <circle class="cls-4" cx="15.05" cy="54.25" r="8.12"/>
+    <line class="cls-1" x1="15.05" y1="57.47" x2="15.05" y2="73.72"/>
+    <circle class="cls-4" cx="15.05" cy="77.32" r="8.12"/>
+    <circle class="cls-4" cx="15.05" cy="145.45" r="8.12"/>
+    <line class="cls-1" x1="15.05" y1="148.68" x2="15.05" y2="164.93"/>
+    <circle class="cls-4" cx="15.05" cy="168.53" r="8.12"/>
+    <line class="cls-1" x1="15.05" y1="80.55" x2="15.05" y2="96.8"/>
+    <circle class="cls-4" cx="15.05" cy="100.4" r="8.12"/>
+    <line class="cls-1" x1="15.05" y1="103.62" x2="15.05" y2="119.87"/>
+    <circle class="cls-4" cx="15.05" cy="123.48" r="8.12"/>
+    <line class="cls-1" x1="15.05" y1="126.7" x2="15.05" y2="142.95"/>
+    <circle class="cls-4" cx="15.05" cy="191.14" r="8.12"/>
+    <line class="cls-1" x1="15.05" y1="172.39" x2="15.05" y2="188.64"/>
+    <polygon class="cls-7" points="66.17 205.6 52.86 178.37 79.48 178.37 66.17 205.6"/>
+    <polygon class="cls-7" points="40.17 205.6 26.86 178.37 53.48 178.37 40.17 205.6"/>
+    <polygon class="cls-7" points="92.17 205.6 78.86 178.37 105.48 178.37 92.17 205.6"/>
+    <polygon class="cls-7" points="118.17 205.6 104.86 178.37 131.48 178.37 118.17 205.6"/>
+    <polygon class="cls-7" points="143.17 205.6 129.86 178.37 156.48 178.37 143.17 205.6"/>
+    <circle class="cls-2" cx="40.17" cy="54.6" r="1.51"/>
+    <circle class="cls-6" cx="40.17" cy="54.87" r="2.77"/>
+    <circle class="cls-6" cx="66.17" cy="54.87" r="2.77"/>
+    <circle class="cls-6" cx="91.94" cy="54.87" r="2.77"/>
+    <circle class="cls-6" cx="117.94" cy="54.87" r="2.77"/>
+    <circle class="cls-6" cx="143.57" cy="54.87" r="2.77"/>
+    <circle class="cls-6" cx="40.17" cy="79.55" r="2.77"/>
+    <circle class="cls-6" cx="66.17" cy="79.55" r="2.77"/>
+    <circle class="cls-6" cx="91.94" cy="79.55" r="2.77"/>
+    <circle class="cls-6" cx="117.94" cy="79.55" r="2.77"/>
+    <circle class="cls-6" cx="143.57" cy="79.55" r="2.77"/>
+    <circle class="cls-6" cx="40.17" cy="106.87" r="2.77"/>
+    <circle class="cls-6" cx="66.17" cy="106.87" r="2.77"/>
+    <circle class="cls-6" cx="91.94" cy="106.87" r="2.77"/>
+    <circle class="cls-6" cx="117.94" cy="106.87" r="2.77"/>
+    <circle class="cls-6" cx="143.57" cy="106.87" r="2.77"/>
+    <circle class="cls-6" cx="40.17" cy="132.87" r="2.77"/>
+    <circle class="cls-6" cx="66.17" cy="132.87" r="2.77"/>
+    <circle class="cls-6" cx="91.94" cy="132.87" r="2.77"/>
+    <circle class="cls-6" cx="117.94" cy="132.87" r="2.77"/>
+    <circle class="cls-6" cx="143.57" cy="132.87" r="2.77"/>
+    <circle class="cls-6" cx="40.17" cy="158.87" r="2.77"/>
+    <circle class="cls-6" cx="66.17" cy="158.87" r="2.77"/>
+    <circle class="cls-6" cx="91.94" cy="158.87" r="2.77"/>
+    <circle class="cls-6" cx="117.94" cy="158.87" r="2.77"/>
+    <circle class="cls-6" cx="143.57" cy="158.87" r="2.77"/>
+    <text class="cls-5" transform="translate(0 31.09)"><tspan x="0" y="0">C</tspan><tspan class="cls-8" x="29.84" y="0">R</tspan><tspan x="59.8" y="0">YP</tspan><tspan class="cls-9" x="124.34" y="0">T</tspan><tspan x="145.33" y="0">A</tspan></text>
+    <line class="cls-1" x1="24.83" y1="53.96" x2="33.18" y2="53.96"/>
+    <line class="cls-1" x1="150.3" y1="54.87" x2="158.66" y2="54.87"/>
+  </g>
+</svg>

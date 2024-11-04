@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 502.6 106.45">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #0a1912;
+        font-family: GoodTimesRg-Regular, 'Good Times';
+        font-size: 100px;
+      }
+
+      .cls-2 {
+        letter-spacing: 0em;
+      }
+
+      .cls-3 {
+        letter-spacing: -.09em;
+      }
+
+      .cls-4 {
+        letter-spacing: -.14em;
+      }
+    </style>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <text class="cls-1" transform="translate(0 86.35)"><tspan x="0" y="0">C</tspan><tspan class="cls-3" x="82.9" y="0">R</tspan><tspan class="cls-2" x="166.1" y="0">YP</tspan><tspan class="cls-4" x="345.4" y="0">T</tspan><tspan x="403.7" y="0">A</tspan></text>
+  </g>
+</svg>
