@@ -95,13 +95,19 @@
                 </div>
 
                 <div class="form-group">
-                    <label for="bank_account">Bank Account Information</label>
+                    <label for="bank_account">Transit No.</label>
+                    <input type="number" id="bank_account" name="bank_account" placeholder="Transit Number" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="bank_account">Bank Account Number</label>
                     <input type="number" id="bank_account" name="bank_account" placeholder="Account number" required>
                 </div>
                 
-                <button type="submit" onclick="document.location='detail_index.html'">Next</button>
-
-                <button type="button" onclick="document.location='main_index.html'" style="margin-top: 10px;">Back</button>
+                <div class="button">
+                    <button type="button" onclick="document.location='main_index.html'">Back</button>
+                    <button type="submit" onclick="document.location='detail_index.html'">Next</button>
+                </div>
             </form>
         </div>
     </div>
