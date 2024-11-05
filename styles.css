@@ -122,6 +122,10 @@ h2 {
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
 }
 
+form {
+    display: flex;
+    justify-content: center;
+}
 
 form label {
     color: #0a1912;
@@ -159,11 +163,14 @@ button:hover {
 }
 
 .button {
-    margin: 10px 0; /* Optional: space between buttons */
+    margin: 20px 0; /* Optional: space between buttons */
 }
 
 .button-link {
-    display: inline-block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
     padding: 10px; /* Matches the button padding */
     width: 200px; /* Matches the button width */
     background-color: #33845b; /* Matches the button background color */
@@ -174,7 +181,8 @@ button:hover {
     text-align: center; /* Center text */
     text-decoration: none; /* Remove underline */
     cursor: pointer; /* Pointer cursor on hover */
-    transition: background-color 0.3s ease; /* Smooth transition */
+    transition: background-color 0.3s ease; 
+    margin-top: 10px;
 }
 
 .button-link:hover {
