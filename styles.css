@@ -22,11 +22,10 @@ html, body {
 body {
     height: 100%;
     width: 100%;
-    color: white;
+    color: #0a1912;
     background-color: white;
     text-align: left;
     font-weight: 100;
-    font-size: 12px;
     line-height: 30px;
 }
 
@@ -65,6 +64,7 @@ li a:hover {
     width: 188px;
     height: 90px;
 }
+
 
 form {
     max-width: 700px;
