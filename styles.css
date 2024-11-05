@@ -34,16 +34,14 @@ body > .form_container {
 }
 
 
-li {
-    display: inline;
-    float: right;
-}
+
 
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
+    display: flex;
     background-color: #0a1912;
 }
 
@@ -144,30 +142,20 @@ button:hover {
     background-color: #ba4212;
 }
 
-.terms {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #0a1912;
-    margin-top: 10px;
+.Terms {
+    display: inline-block;
     width: 100%;
+    text-align: center;
 }
 
-.terms input {
-    margin-right: 5px;
+#agree{
+    width: fit-content;
+    display: inline-block;
 }
 
-.terms a {
-        color: #007bff;
-        text-decoration: none;
-        margin-left: 5px;
+.Terms label {
+    display: inline-block;
 }
-
-.terms a:hover {
-        color: #0056b3;
-        text-decoration: underline;
-}
-
 
 footer {
     background: #0a1912;
