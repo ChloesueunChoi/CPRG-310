@@ -5,13 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Landing Page</title>
     <link rel="stylesheet" href="styles.css">
-    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 </head>
 
 <body>
     <header class="header">
-        <img class="logo" src="./assets/Asset 2.svg" alt="Crypta_logo">
-        <nav class="navbar">
+        <img class="logo" src="./assets/Asset 2.svg" alt="Crypta header logo">
+        <nav class="navbar" role="navigation" aria-label="Main Navigation">
             <ul>
                 <li><a href="#">Home</a></li>
                 <li><a href="#">Service</a></li>
@@ -23,24 +23,20 @@
 
     <div class="form_container">
         <div class="form_box">
-            <div class="main">
-                <img class="logo_main" src="./assets/Asset 1.svg" alt="Crypta_logo">
+                <img class="logo_main" src="./assets/Asset 1.svg" alt="Crypta main logo">
                 <p id="main_p">Welcome to Crypta, your easy gateway to confident cryptocurrency investing.</p>
                 
+                <button aria-label="Log In">Log In</button>
                 <div class="button">
-                    <button>Log In</button>
+                    <a href="index.html" class="button-link" aria-label="Sign Up">Sign Up</a>
                 </div>
-
-                <div class="button">
-                    <button onclick="document.location='index.html'">Sign Up</button>
-                </div>
-            </div>
         </div>
     </div>
 
     <footer class="footer">
-        <p>Copyright &copy; 2024 <img src="./assets/Asset 2.svg" alt="logo"> All Rights Reserved.</p>
+        <p>Copyright &copy; 2024 <img src="./assets/Asset 2.svg" alt="Crypta footer logo"> All Rights Reserved.</p>
     </footer>
+    
     <script src="script.js"></script>
 </body>
 </html>

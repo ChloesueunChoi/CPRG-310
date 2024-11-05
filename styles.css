@@ -158,6 +158,29 @@ button:hover {
     background-color: #ba4212;
 }
 
+.button {
+    margin: 10px 0; /* Optional: space between buttons */
+}
+
+.button-link {
+    display: inline-block;
+    padding: 10px; /* Matches the button padding */
+    width: 200px; /* Matches the button width */
+    background-color: #33845b; /* Matches the button background color */
+    color: #fff; /* Matches the button text color */
+    border: none; /* No border for the link */
+    border-radius: 5px; /* Matches the button border radius */
+    font-size: 16px; /* Matches the button font size */
+    text-align: center; /* Center text */
+    text-decoration: none; /* Remove underline */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+.button-link:hover {
+    background-color: #1b4731 /* Darker shade on hover (adjust as needed) */
+}
+
 #submit {
     padding: 10px;
     width: 200px;
