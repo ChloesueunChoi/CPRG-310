@@ -8,82 +8,78 @@
     <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
 </head>
 
-<header class="header">
-    <img class="logo" src="./Crypta_logo/SVG/Asset 5.svg" alt="Crypta_logo">
-    <nav class="navbar">
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Service</a></li>
-            <li><a href="#">Contact</a></li>
-            <li><a href="#">About</a></li>
-        </ul>
-    </nav>
-</header>
-
 <body>
-    <div class="content">
-        <h1> Sign Up </h1>
-        <h2>Step 2: Your Investment Profile</h2>
-        <form action="#">
+    <!-- Header section with navigation -->
+    <header class="header">
+        <img class="logo" src="./Crypta_logo/SVG/Asset 5.svg" alt="Crypta logo">
+        <nav class="navbar">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Service</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">About</a></li>
+            </ul>
+        </nav>
+    </header>
 
-            <div>
-                <label for="Income_level">Income Level (Annual income)</label>
-                <select id="Income_level" name="Income_level">
-                    <option value="Low_income">Low Income: Annual income below $35,000 </option>
-                    <option value="Middle_income">Middle income: Annual income between $35,000 and $100,000 </option>
-                    <option value="High_income">High income: Annual income above $100,000 </option>
-                </select>
-            </div>
+    <!-- Form content for Step 2 of the signup process -->
+    <div class="form_container">
+        <div class="form_box">
+            <h1>Sign Up</h1>
+            <h2>Step 2: Your Investment Profile</h2>
 
-            <div>
-            <label for="Investment_Experience">Investment Experience</label>
-            <input type="number" id="Investment_Experience" name="Investment_Experience" placeholder="Year of Experience" min="1" max="80" required>
-            </div>
-            
-            <div>
-                <label for="investment_style">Select your investment approach (Risk tolerance level):</label>
-                <select id="investment_style" name="investment_style">
-                    <option value="conservative">Conservative (Low risk, lower returns)</option>
-                    <option value="balanced">Balanced (Moderate risk, moderate returns)</option>
-                    <option value="aggressive">Aggressive (High risk, potential for high returns)</option>
-                </select>
-            </div>
-            
-            <div>
-                <label>What is your primary investment goal?</label>
-                <div>
-                    <input type="radio" id="retirement" name="investment_goal" value="retirement">
-                    <label for="retirement">Saving for Retirement</label>
+            <form action="#" id="form">
+                <div class="form-group">
+                    <label for="Income_level">Income Level (Annual income)</label>
+                    <select id="Income_level" name="Income_level" required>
+                        <option value="" disabled selected>Select your income level</option>
+                        <option value="Low_income">Low Income: Annual income below $35,000</option>
+                        <option value="Middle_income">Middle Income: Annual income between $35,000 and $100,000</option>
+                        <option value="High_income">High Income: Annual income above $100,000</option>
+                    </select>
                 </div>
-                <div>
-                    <input type="radio" id="wealth_building" name="investment_goal" value="wealth_building">
-                    <label for="wealth_building">Building Wealth</label>
+
+                <div class="form-group">
+                    <label for="Investment_Experience">Investment Experience</label>
+                    <input type="number" id="Investment_Experience" name="Investment_Experience" placeholder="Years of experience" min="1" max="80" required>
                 </div>
-                <div>
-                    <input type="radio" id="financial_milestones" name="investment_goal" value="financial_milestones">
-                    <label for="financial_milestones">Achieving Specific Financial Milestones (e.g., buying a house)</label>
+
+                <div class="form-group">
+                    <label for="investment_style">Select your investment approach (Risk tolerance level)</label>
+                    <select id="investment_style" name="investment_style" required>
+                        <option value="" disabled selected>Select investment approach</option>
+                        <option value="conservative">Conservative (Low risk, lower returns)</option>
+                        <option value="balanced">Balanced (Moderate risk, moderate returns)</option>
+                        <option value="aggressive">Aggressive (High risk, potential for high returns)</option>
+                    </select>
                 </div>
-                <div>
-                    <input type="radio" id="education_fund" name="investment_goal" value="education_fund">
-                    <label for="education_fund">Funding Education</label>
+
+                <div class="form-group">
+                    <label for="investment_goal">What is your primary investment goal?</label>
+                    <select id="investment_goal" name="investment_goal" required>
+                        <option value="" disabled selected>Select your investment goal</option>
+                        <option value="retirement">Saving for Retirement</option>
+                        <option value="wealth_building">Building Wealth</option>
+                        <option value="financial_milestones">Achieving Specific Financial Milestones (e.g., buying a house)</option>
+                        <option value="education_fund">Funding Education</option>
+                        <option value="other">Other</option>
+                    </select>
                 </div>
-                <div>
-                    <input type="radio" id="other_goal" name="investment_goal" value="other">
-                    <label for="other_goal">Other</label>
+
+                <div class="Terms">
+                    <input type="checkbox" id="agree" name="agree" required>
+                    <label for="agree">I accept the <a href="#">Terms and Conditions</a></label>
                 </div>
-            </div>
-            
-            <div>
-            <input type="checkbox" id="agree" name="agree" required>
-            <label for="agree">I have read and agree to the Terms and Conditions and Privacy Policy</label>
-            </div>
-            <input type="submit" value="Submit"> 
-        </form>
-        <button onclick="document.location='index.html'">Back</button>
+                
+                <input type="submit" value="Submit">
+                <button type="button" onclick="document.location='index.html'" style="margin-top: 10px;">Back</button>
+            </form>
+        </div>
     </div>
-    
+
+    <!-- Footer section -->
     <footer class="footer">
-        <p>Copyright &copy; 2024 <img src="./Crypta_logo/SVG/Asset 5.svg" alt="logo"> All Rights Reserved.</p>
+        <p>&copy; 2024 <img src="./Crypta_logo/SVG/Asset 5.svg" alt="logo"> All Rights Reserved.</p>
     </footer>
 </body>
 </html>

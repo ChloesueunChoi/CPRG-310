@@ -23,14 +23,14 @@ body {
     height: 100%;
     width: 100%;
     color: white;
-    background-color: #33845B;
-    text-align: center;
+    background-color: white;
+    text-align: left;
     font-weight: 100;
     font-size: 12px;
     line-height: 30px;
 }
 
-body > .content {
+body > .form_container {
     flex: 1; 
 }
 
@@ -57,7 +57,8 @@ li a {
 }
 
 li a:hover {
-    background-color: #f95919;
+    background-color: #ba4212; /* Matches button hover */
+    transition: background-color 0.3s;
 }
 
 .logo {
@@ -72,11 +73,108 @@ form {
     position: relative;
     background-color: white;
     color: black;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
 }
+
+
+.form_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+h1, h2 {
+    color: #0a1912;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+h2 {
+    font-size: 20px;
+    color: #33845b;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+form label {
+    color: #0a1912;
+    display: block;
+    margin-bottom: 5px;
+}
+
+input, textarea, select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+textarea {
+    resize: none;
+    height: 60px;
+}
+
+button {
+    padding: 10px;
+    width: 100%;
+    background-color: #f95919;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #ba4212;
+}
+
+.terms {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #0a1912;
+    margin-top: 10px;
+    width: 100%;
+}
+
+.terms input {
+    margin-right: 5px;
+}
+
+.terms a {
+        color: #007bff;
+        text-decoration: none;
+        margin-left: 5px;
+}
+
+.terms a:hover {
+        color: #0056b3;
+        text-decoration: underline;
+}
+
 
 footer {
     background: #0a1912;
     color: white;
+    width: 100%;
+    position: relative;
+    bottom: 0;
 }
 
 footer p {
@@ -86,4 +184,13 @@ footer p {
 
 footer img {
     width: 60px;
+}
+
+
+/* Responsive Design for Two Columns on Larger Screens */
+@media (min-width: 600px) {
+    .form-group {
+      flex: 1 1 45%; /* Two columns on larger screens */
+    }
+    
 }

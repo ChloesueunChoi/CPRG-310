@@ -9,8 +9,9 @@
 </head>
 
 <body>
+    <!-- Header section with navigation -->
     <header class="header">
-        <img class="logo" src="./Crypta_logo/SVG/Asset 5.svg" alt="Crypta_logo">
+        <img class="logo" src="./Crypta_logo/SVG/Asset 5.svg" alt="Crypta logo">
         <nav class="navbar">
             <ul>
                 <li><a href="#">Home</a></li>
@@ -21,84 +22,91 @@
         </nav>
     </header>
 
-    <div class="content">
-        <h1> Sign Up </h1>
-        <h2>Step 1: Personal Info</h2>
-        
-        <form action="#" id="form">
-            <div>
-                <label for="firstname">First Name
+    <!-- Form container for signup form -->
+    <div class="form_container">
+        <div class="form_box">
+            <h1>Sign Up</h1>
+            <h2>Step 1: Personal Info</h2>
+            
+            <form action="#" id="form">
+                <div class="form-group">
+                    <label for="firstname">First Name</label>
                     <input type="text" id="firstname" name="firstname" placeholder="Enter your first name" required>
-                </label>
+                </div>
 
-                <label for="lastname">Last Name
+                <div class="form-group">
+                    <label for="lastname">Last Name</label>
                     <input type="text" id="lastname" name="lastname" placeholder="Enter your last name" required>
-                </label>
-            </div>
+                </div>
 
-            <div>
-                <label for="email">E-mail Address</label>
-                <input type="email" id="email" name="email" autocomplete="username" placeholder="yourname@example.com" required>
-            </div>
+                <div class="form-group">
+                    <label for="email">E-mail Address</label>
+                    <input type="email" id="email" name="email" autocomplete="username" placeholder="yourname@example.com" required>
+                </div>
 
-            <div>
-                <label for="password">New Password:
+                <div class="form-group">
+                    <label for="dateofbirth">Date of Birth</label>
+                    <input type="date" id="dateofbirth" name="dateofbirth" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="password">New Password</label>
                     <input type="password" id="password" name="password" autocomplete="new-password" required>
-                </label>
+                </div>
 
-                <label for="confirm_password">Confirm Password:
+                <div class="form-group">
+                    <label for="confirm_password">Confirm Password</label>
                     <input type="password" id="confirm_password" name="confirm_password" autocomplete="new-password" required>
-                </label>
-            </div>
+                </div>
+                
+                <div class="form-group">
+                    <label for="address">Address</label>
+                    <input type="text" id="address" name="address" placeholder="123 Main St" required>
+                </div>
 
-            <div>
-                <label for="dateofbirth">Date of Birth</label>
-                <input type="date" id="dateofbirth" name="dateofbirth" required>
-            </div>
+                <div class="form-group">
+                    <label for="postalcode">Postal Code</label>
+                    <input type="text" id="postalcode" name="postalcode" placeholder="Example: A1A 1A1" required>
+                </div>
             
-            <div>
-                <label for="address">Address</label>
-                <input type="text" id="address" name="address" placeholder="123 Main St" required>
+                <div class="form-group">
+                    <label for="city">City</label>
+                    <input type="text" id="city" name="city" placeholder="City name" required>
+                </div>
 
-                <label for="postalcode">Postal Code</label>
-                <input type="text" id="postalcode" name="postalcode" placeholder="Example: A1A 1A1" required>
-            </div>
-        
-            <div>
-                <label for="city">City</label>
-                <input type="text" id="city" name="city" placeholder="City name" required>
+                <div class="form-group">
+                    <label for="province">Province/Territory</label>
+                    <select id="province" name="province" required>
+                        <option value="" disabled selected>Select Province</option>
+                        <option value="Alberta">Alberta</option>
+                        <option value="British Columbia">British Columbia</option>
+                        <option value="Manitoba">Manitoba</option>
+                        <option value="New Brunswick">New Brunswick</option>
+                        <option value="Newfoundland and Labrador">Newfoundland and Labrador</option>
+                        <option value="Northwest Territories">Northwest Territories</option>
+                        <option value="Nova Scotia">Nova Scotia</option>
+                        <option value="Nunavut">Nunavut</option>
+                        <option value="Ontario">Ontario</option>
+                        <option value="Prince Edward Island">Prince Edward Island</option>
+                        <option value="Quebec">Quebec</option>
+                        <option value="Saskatchewan">Saskatchewan</option>
+                        <option value="Yukon">Yukon</option>
+                    </select>
+                </div>
 
-                <label for="province">Province/Territory</label>
-                <select id="province" name="province" required>
-                    <option value="">Select Province</option>
-                    <option value="Alberta">Alberta</option>
-                    <option value="British Columbia">British Columbia</option>
-                    <option value="Manitoba">Manitoba</option>
-                    <option value="New Brunswick">New Brunswick</option>
-                    <option value="Newfoundland and Labrador">Newfoundland and Labrador</option>
-                    <option value="Northwest Territories">Northwest Territories</option>
-                    <option value="Nova Scotia">Nova Scotia</option>
-                    <option value="Nunavut">Nunavut</option>
-                    <option value="Ontario">Ontario</option>
-                    <option value="Prince Edward Island">Prince Edward Island</option>
-                    <option value="Quebec">Quebec</option>
-                    <option value="Saskatchewan">Saskatchewan</option>
-                    <option value="Yukon">Yukon</option>
-                </select>
-            </div>
+                <div class="form-group">
+                    <label for="bank_account">Bank Account Information</label>
+                    <input type="number" id="bank_account" name="bank_account" placeholder="Account number" required>
+                </div>
+                
+                <button type="submit" onclick="document.location='detail_index.html'">Next</button>
 
-            <div>
-                <label for="bank">Bank Account Information</label>
-                <input type="number" id="bank_account" name="bank_account" placeholder="Account number" required>
-            </div>
-            
-            <button type="submit" onclick="document.location='detail_index.html'">Next</button>
-        </form>
-
-        <button type="button" onclick="document.location='main_index.html'">Back</button>
-
+                <button type="button" onclick="document.location='main_index.html'" style="margin-top: 10px;">Back</button>
+            </form>
+        </div>
     </div>
 
+    <!-- Footer section -->
     <footer class="footer">
         <p>Copyright &copy; 2024 <img src="./Crypta_logo/SVG/Asset 5.svg" alt="logo"> All Rights Reserved.</p>
     </footer>
