@@ -112,6 +112,7 @@ h2 {
     gap: 10px;
     margin-bottom: 15px;
     flex-basis: 40%;
+    align-items: center;
 }
 
 .form_box {
