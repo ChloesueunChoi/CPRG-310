@@ -235,11 +235,6 @@ footer img {
     width: 60px;
 }
 
-/* Tablet (600px - 1024px) */
-@media (min-width: 601px) and (max-width: 1024px) {
-
-}
-
 /* Mobile (320px - 600px) */
 @media (min-width: 320px) and (max-width: 600px) {
     .header {
