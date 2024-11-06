@@ -20,7 +20,6 @@ html, body {
 }
 
 body {
-    height: 100%;
     width: 100%;
     color: #0a1912;
     background-image: linear-gradient(to bottom, #0a1912, #153124, #1e4b36, #286748, #33845b);
@@ -141,10 +140,6 @@ input, textarea, select {
     border-radius: 5px;
 }
 
-textarea {
-    resize: none;
-    height: 60px;
-}
 
 button {
     padding: 10px;
@@ -163,7 +158,7 @@ button:hover {
 }
 
 .button {
-    margin: 20px 0; /* Optional: space between buttons */
+    margin: 20px 0; 
 }
 
 .button-link {
@@ -171,22 +166,22 @@ button:hover {
     align-items: center;
     justify-content: center;
     height: 40px;
-    padding: 10px; /* Matches the button padding */
-    width: 200px; /* Matches the button width */
-    background-color: #f95919; /* Matches the button background color */
-    color: #fff; /* Matches the button text color */
-    border: none; /* No border for the link */
-    border-radius: 5px; /* Matches the button border radius */
-    font-size: 16px; /* Matches the button font size */
-    text-align: center; /* Center text */
-    text-decoration: none; /* Remove underline */
-    cursor: pointer; /* Pointer cursor on hover */
+    padding: 10px;
+    width: 200px;
+    background-color: #f95919; 
+    color: #fff; 
+    border: none; 
+    border-radius: 5px; 
+    font-size: 16px; 
+    text-align: center; 
+    text-decoration: none; 
+    cursor: pointer; 
     transition: background-color 0.3s ease; 
     margin-top: 10px;
 }
 
 .button-link:hover {
-    background-color: #ba4212; /* Darker shade on hover (adjust as needed) */
+    background-color: #ba4212; 
 }
 
 #submit {
@@ -237,10 +232,31 @@ footer img {
 }
 
 
-/* Responsive Design for Two Columns on Larger Screens */
-@media (min-width: 600px) {
+/* Desktop (1024px and above) */
+@media (min-width: 1025px) {
     .form-group {
-      flex: 1 1 45%; /* Two columns on larger screens */
+        flex: 1 1 45%;
+}
+
+/* Tablet (600px - 1024px) */
+@media (min-width: 601px) and (max-width: 1024px) {
+    .form-group {
+        flex: 1 1 45%;
+}
+
+/* Mobile (320px - 600px) */
+@media (min-width: 320px) and (max-width: 600px) {
+    .form-group {
+        flex: 1 50%;
+}
+
+/*small*/
+@media (max-width: 320px) {
+    .form-group {
+        flex: 1 50%; 
     }
-    
+    .header {
+        display: flex;
+        flex-direction: column;
+    }
 }

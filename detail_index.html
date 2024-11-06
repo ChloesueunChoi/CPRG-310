@@ -66,6 +66,24 @@
                     </select>
                 </div>
 
+                <div class="form-group">
+                    <label for="institution">Institution Number:</label>
+                    <input type="text" id="institution" name="institution" pattern="\d{3}" title="Enter a 3-digit institution number (e.g., 001)" placeholder="001" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="transit">Transit Number:</label>
+                    <input type="text" id="transit" name="transit"
+                    pattern="\d{5}"
+                    title="Enter a 5-digit transit number (e.g., 12345)" placeholder="00000"
+                    required>
+                </div>
+
+                <div class="form-group">
+                    <label for="account">Account Number:</label>
+                    <input type="text" id="account" name="account" pattern="\d{7,12}" title="Enter a 7 to 12-digit account number" placeholder="0000000" required>
+                </div>
+
                 <div class="Terms">
                     <input type="checkbox" id="agree" name="agree" required>
                     <label for="agree">I accept the <a href="#">Terms and Conditions</a></label>
