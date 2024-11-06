@@ -111,6 +111,7 @@ h2 {
     flex-direction: column;
     gap: 10px;
     margin-bottom: 15px;
+    flex-basis: 40%;
 }
 
 .form_box {
@@ -124,6 +125,7 @@ h2 {
 form {
     display: flex;
     justify-content: center;
+    max-width: 1000px;
 }
 
 form label {
@@ -133,7 +135,7 @@ form label {
 }
 
 input, textarea, select {
-    width: 100%;
+    width: 40ch;
     padding: 10px;
     margin-bottom: 10px;
     border: 1px solid #ccc;
@@ -229,14 +231,6 @@ footer p {
 
 footer img {
     width: 60px;
-}
-
-
-/* Desktop (1024px and above) */
-@media (min-width: 1025px) {
-    .form-group {
-        flex: 1 1 45%;
-    }
 }
 
 /* Tablet (600px - 1024px) */
