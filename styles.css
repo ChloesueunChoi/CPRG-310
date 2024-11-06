@@ -236,24 +236,25 @@ footer img {
 @media (min-width: 1025px) {
     .form-group {
         flex: 1 1 45%;
+    }
 }
 
 /* Tablet (600px - 1024px) */
 @media (min-width: 601px) and (max-width: 1024px) {
-    .form-group {
-        flex: 1 1 45%;
+
 }
 
 /* Mobile (320px - 600px) */
 @media (min-width: 320px) and (max-width: 600px) {
-    .form-group {
-        flex: 1 50%;
+    .header {
+        flex-direction: column;
+    }
 }
 
 /*small*/
 @media (max-width: 320px) {
     .form-group {
-        flex: 1 50%; 
+        flex: 1; 
     }
     .header {
         display: flex;
