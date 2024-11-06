@@ -153,6 +153,7 @@ button {
     font-size: 16px;
     cursor: pointer;
     margin-top: 10px;
+    max-height: 40px;
 }
 
 button:hover {
